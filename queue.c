@@ -31,7 +31,7 @@ void addqueue(stack_t **head, int n)
 	new_node->next = NULL;
 	if (aux)
 	{
-		while (auxe->next)
+		while (aux->next)
 			aux = aux->next;
 	}
 	if (!aux)
